@@ -83,4 +83,4 @@ For the detailed information on how to register and verify a user using SmilePas
 
 
 ## License
-SmilePass iOS SDK sample application is licensed with the MIT License. For more details, see [LICENSE](https://github.com/SmilePass-ltd/SmilePass-SDK-iOS/blob/master/LICENSE).
+SmilePass iOS SDK sample application is licensed with the SmilePass License. For more details, see [LICENSE](https://smile-pass.com).
