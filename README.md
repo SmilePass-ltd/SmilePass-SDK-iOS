@@ -48,6 +48,8 @@ You need to handle ClientException for creating an instance and calling any meth
         let smilePassObject = try SmilePassClient(apiKey: "")
     } catch ClientException.invalidAPIKeyError {
         print("API key should not be blank")
+    } catch let error {
+            print(error.localizedDescription)
     }
 
 **Exception**
