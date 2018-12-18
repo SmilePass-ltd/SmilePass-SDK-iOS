@@ -4,7 +4,7 @@
 SmilePass is a face verification SDK for iOS. This repo is the sample which demonstrate how to use SmilePass SDK in your iOS applications.
 Using SmilePass, our clients can create unique and secure biometric profiles for each of their customers as they begin their journey together. Any future transactions or events that contain risk are verified against this profile.
 
-**Our scalable security solution can be used to;**
+**Our scalable security solution can be used to:**
 * Provide frictionless and secure KYC for your customers
 * Build trusted membership communities through identity management
 * Reduce ticket, tout and payment fraud while increasing security
@@ -15,7 +15,7 @@ SmilePass iOS SDK is available for iOS 11 and above.
 
 ## Get Started
 
-This guide is a quick start to add SmilePass biometric verification to an iOS app.
+This guide is a quick start to add SmilePass biometric verification to an iOS application.
 
 
 ## Prerequisites
@@ -25,7 +25,7 @@ Your application needs an API key to access the features of SmilePass SDK. You c
 To get API Key, [Contact SmilePass](https://smile-pass.com/contact).
 
 
-## Add SmilePass to your app
+## Add SmilePass to your application
 
 ### Step 1. Add SmilePass dependency
 Add the following to your Podfile (inside the target section):
