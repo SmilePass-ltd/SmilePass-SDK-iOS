@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SmilePass-Swift.h</key>
 		<data>
-		byo7PPi70xj8WrcSkWkok8EG7og=
+		qZtLameS6M7/jslH6pq9rrEZfzE=
 		</data>
 		<key>Headers/SmilePass.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PGnI/BaVo1Nl83SYENJG8sIsKj0=
+		kROuEEOxbowm6rXzcxnacC26XU0=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SmilePass.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		tAL7iV14PyMTklKdwHewkx0i57Y=
+		t7sp9HDV5amuiWmpD3rDbF0jFIc=
 		</data>
 		<key>Modules/SmilePass.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		GqLyqC5V0jLT/A50jJQTmgvr7z4=
+		2XsbjG+xubAeEIIXae/US4JUrq4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EyLo7UvXEJ+ndMylInC6k+kIcsmqBZ8OBn5i0vszwRE=
+			DgqxKD1iPvCcZZHS7w3SkAPJaABnaya7IocTMPcCq38=
 			</data>
 		</dict>
 		<key>Headers/SmilePass.h</key>
@@ -60,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E9thxhTMvyjLWXIsFx9zDN5L0r+z6kcc7RO3bvi3fz4=
+			JGI9aDXC0ByaFw2tV5btgqDrTaCIdTVx3EXxa1IgnNw=
 			</data>
 		</dict>
 		<key>Modules/SmilePass.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdBud/bO03wYmwD0lrVPT+okncOpKmu68jv7jFBsX3w=
+			mHEt9ZpBY2I27O85/tGuXvMYyXCgQqEx3EZAq7JZSkw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

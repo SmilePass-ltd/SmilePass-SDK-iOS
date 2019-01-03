@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C45AA8B21DE4BDF00B15BCF /* SmilePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE46EA521DE4953009FBF3D /* SmilePass.framework */; };
-		0C45AA8C21DE4BDF00B15BCF /* SmilePass.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE46EA521DE4953009FBF3D /* SmilePass.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C47551D21DE503E0051F884 /* SmilePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C47551C21DE503D0051F884 /* SmilePass.framework */; };
 		62E28394720AF6D330E898EF /* Pods_SmilePassSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */; };
 		6D32E7B121CA52A300770144 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B021CA52A300770144 /* VerifyViewController.swift */; };
 		6D32E7B321CA52D200770144 /* DocumentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B221CA52D200770144 /* DocumentRegisterViewController.swift */; };
@@ -27,7 +26,6 @@
 		6DD05E1A21CA792400B9F592 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD05E1921CA792400B9F592 /* UITableViewExtension.swift */; };
 		6DD05E1D21CA8E5900B9F592 /* SmilePassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD05E1C21CA8E5900B9F592 /* SmilePassManager.swift */; };
 		6DD4E13821CB9F9C00C382AA /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4E13721CB9F9C00C382AA /* DictionaryExtension.swift */; };
-		6DE46EA621DE4953009FBF3D /* SmilePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE46EA521DE4953009FBF3D /* SmilePass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0C45AA8C21DE4BDF00B15BCF /* SmilePass.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C47551C21DE503D0051F884 /* SmilePass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmilePass.framework; sourceTree = "<group>"; };
 		3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmilePassSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D32E7B021CA52A300770144 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		6D32E7B221CA52D200770144 /* DocumentRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentRegisterViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 		6DD05E1921CA792400B9F592 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		6DD05E1C21CA8E5900B9F592 /* SmilePassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmilePassManager.swift; sourceTree = "<group>"; };
 		6DD4E13721CB9F9C00C382AA /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
-		6DE46EA521DE4953009FBF3D /* SmilePass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmilePass.framework; sourceTree = "<group>"; };
 		B1540B3392183421ECC51B4C /* Pods-SmilePassSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmilePassSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmilePassSampleApp/Pods-SmilePassSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FA11338396DD0748EC402050 /* Pods-SmilePassSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmilePassSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmilePassSampleApp/Pods-SmilePassSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,9 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE46EA621DE4953009FBF3D /* SmilePass.framework in Frameworks */,
+				0C47551D21DE503E0051F884 /* SmilePass.framework in Frameworks */,
 				62E28394720AF6D330E898EF /* Pods_SmilePassSampleApp.framework in Frameworks */,
-				0C45AA8B21DE4BDF00B15BCF /* SmilePass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +83,7 @@
 		581E9EB3B3C267B7CDFB27B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6DE46EA521DE4953009FBF3D /* SmilePass.framework */,
+				0C47551C21DE503D0051F884 /* SmilePass.framework */,
 				3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */,
 			);
 			name = Frameworks;
