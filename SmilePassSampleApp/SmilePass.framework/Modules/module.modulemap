@@ -1,0 +1,11 @@
+framework module SmilePass {
+  umbrella header "SmilePass.h"
+
+  export *
+  module * { export * }
+}
+
+module SmilePass.Swift {
+    header "SmilePass-Swift.h"
+    requires objc
+}

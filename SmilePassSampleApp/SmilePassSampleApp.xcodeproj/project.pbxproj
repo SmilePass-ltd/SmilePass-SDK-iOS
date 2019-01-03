@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62E28394720AF6D330E898EF /* Pods_SmilePassSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */; };
+		6D32E7B121CA52A300770144 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B021CA52A300770144 /* VerifyViewController.swift */; };
+		6D32E7B321CA52D200770144 /* DocumentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B221CA52D200770144 /* DocumentRegisterViewController.swift */; };
+		6D32E7B521CA52E500770144 /* SelfieRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B421CA52E500770144 /* SelfieRegisterViewController.swift */; };
+		6D32E7B821CA533A00770144 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B721CA533A00770144 /* Constants.swift */; };
+		6D32E7BA21CA54D500770144 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B921CA54D500770144 /* WelcomeViewController.swift */; };
+		6D32E7BE21CA55BE00770144 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D32E7C021CA55BE00770144 /* Localizable.strings */; };
+		6D32E7C421CA569300770144 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7C321CA569300770144 /* StringExtension.swift */; };
+		6D32E7C621CA56D500770144 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7C521CA56D500770144 /* UIViewControllerExtension.swift */; };
+		6DB709D721CA4F9600B7BA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB709D621CA4F9600B7BA5C /* AppDelegate.swift */; };
+		6DB709DC21CA4F9600B7BA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB709DA21CA4F9600B7BA5C /* Main.storyboard */; };
+		6DB709DE21CA4F9600B7BA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB709DD21CA4F9600B7BA5C /* Assets.xcassets */; };
+		6DB709E121CA4F9600B7BA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB709DF21CA4F9600B7BA5C /* LaunchScreen.storyboard */; };
+		6DD05E1521CA704600B9F592 /* FieldDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD05E1421CA704600B9F592 /* FieldDataModel.swift */; };
+		6DD05E1821CA77CF00B9F592 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD05E1721CA77CF00B9F592 /* TextFieldCell.swift */; };
+		6DD05E1A21CA792400B9F592 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD05E1921CA792400B9F592 /* UITableViewExtension.swift */; };
+		6DD05E1D21CA8E5900B9F592 /* SmilePassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD05E1C21CA8E5900B9F592 /* SmilePassManager.swift */; };
+		6DD4E13821CB9F9C00C382AA /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4E13721CB9F9C00C382AA /* DictionaryExtension.swift */; };
+		6DE46EA621DE4953009FBF3D /* SmilePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE46EA521DE4953009FBF3D /* SmilePass.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DD05E2221CA957800B9F592 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmilePassSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D32E7B021CA52A300770144 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		6D32E7B221CA52D200770144 /* DocumentRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentRegisterViewController.swift; sourceTree = "<group>"; };
+		6D32E7B421CA52E500770144 /* SelfieRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieRegisterViewController.swift; sourceTree = "<group>"; };
+		6D32E7B721CA533A00770144 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6D32E7B921CA54D500770144 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6D32E7C121CA55C300770144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D32E7C321CA569300770144 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6D32E7C521CA56D500770144 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6DB709D321CA4F9600B7BA5C /* SmilePassSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmilePassSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB709D621CA4F9600B7BA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DB709DB21CA4F9600B7BA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DB709DD21CA4F9600B7BA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB709E021CA4F9600B7BA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DB709E221CA4F9600B7BA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD05E1421CA704600B9F592 /* FieldDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldDataModel.swift; sourceTree = "<group>"; };
+		6DD05E1721CA77CF00B9F592 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		6DD05E1921CA792400B9F592 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		6DD05E1C21CA8E5900B9F592 /* SmilePassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmilePassManager.swift; sourceTree = "<group>"; };
+		6DD4E13721CB9F9C00C382AA /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		6DE46EA521DE4953009FBF3D /* SmilePass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmilePass.framework; sourceTree = "<group>"; };
+		B1540B3392183421ECC51B4C /* Pods-SmilePassSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmilePassSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmilePassSampleApp/Pods-SmilePassSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FA11338396DD0748EC402050 /* Pods-SmilePassSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmilePassSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmilePassSampleApp/Pods-SmilePassSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB709D021CA4F9600B7BA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE46EA621DE4953009FBF3D /* SmilePass.framework in Frameworks */,
+				62E28394720AF6D330E898EF /* Pods_SmilePassSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581E9EB3B3C267B7CDFB27B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE46EA521DE4953009FBF3D /* SmilePass.framework */,
+				3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D32E7AF21CA527F00770144 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D32E7B921CA54D500770144 /* WelcomeViewController.swift */,
+				6D32E7B221CA52D200770144 /* DocumentRegisterViewController.swift */,
+				6D32E7B421CA52E500770144 /* SelfieRegisterViewController.swift */,
+				6D32E7B021CA52A300770144 /* VerifyViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6D32E7B621CA532900770144 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D32E7C221CA568900770144 /* Extensions */,
+				6D32E7B721CA533A00770144 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6D32E7BB21CA557800770144 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D32E7C021CA55BE00770144 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D32E7C221CA568900770144 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D32E7C321CA569300770144 /* StringExtension.swift */,
+				6DD4E13721CB9F9C00C382AA /* DictionaryExtension.swift */,
+				6D32E7C521CA56D500770144 /* UIViewControllerExtension.swift */,
+				6DD05E1921CA792400B9F592 /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DB709CA21CA4F9600B7BA5C = {
+			isa = PBXGroup;
+			children = (
+				6DB709D521CA4F9600B7BA5C /* SmilePassSampleApp */,
+				6DB709D421CA4F9600B7BA5C /* Products */,
+				A80F42BC097DD874E36446C2 /* Pods */,
+				581E9EB3B3C267B7CDFB27B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB709D421CA4F9600B7BA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB709D321CA4F9600B7BA5C /* SmilePassSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB709D521CA4F9600B7BA5C /* SmilePassSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				6DB709D621CA4F9600B7BA5C /* AppDelegate.swift */,
+				6DD05E1B21CA8E3A00B9F592 /* Managers */,
+				6DD05E1321CA701900B9F592 /* Models */,
+				6D32E7BB21CA557800770144 /* Resources */,
+				6D32E7B621CA532900770144 /* Helpers */,
+				6DD05E1621CA77C100B9F592 /* Cells */,
+				6D32E7AF21CA527F00770144 /* ViewControllers */,
+				6DB709DA21CA4F9600B7BA5C /* Main.storyboard */,
+				6DB709DD21CA4F9600B7BA5C /* Assets.xcassets */,
+				6DB709DF21CA4F9600B7BA5C /* LaunchScreen.storyboard */,
+				6DB709E221CA4F9600B7BA5C /* Info.plist */,
+			);
+			path = SmilePassSampleApp;
+			sourceTree = "<group>";
+		};
+		6DD05E1321CA701900B9F592 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DD05E1421CA704600B9F592 /* FieldDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6DD05E1621CA77C100B9F592 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6DD05E1721CA77CF00B9F592 /* TextFieldCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6DD05E1B21CA8E3A00B9F592 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6DD05E1C21CA8E5900B9F592 /* SmilePassManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A80F42BC097DD874E36446C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1540B3392183421ECC51B4C /* Pods-SmilePassSampleApp.debug.xcconfig */,
+				FA11338396DD0748EC402050 /* Pods-SmilePassSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB709D221CA4F9600B7BA5C /* SmilePassSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB709E521CA4F9600B7BA5C /* Build configuration list for PBXNativeTarget "SmilePassSampleApp" */;
+			buildPhases = (
+				0C496020B844CBDC14093DD3 /* [CP] Check Pods Manifest.lock */,
+				6DB709CF21CA4F9600B7BA5C /* Sources */,
+				6DB709D021CA4F9600B7BA5C /* Frameworks */,
+				6DB709D121CA4F9600B7BA5C /* Resources */,
+				A54CDD25CE269EFA8538B711 /* [CP] Embed Pods Frameworks */,
+				6DD05E2221CA957800B9F592 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmilePassSampleApp;
+			productName = SmilePassSampleApp;
+			productReference = 6DB709D321CA4F9600B7BA5C /* SmilePassSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB709CB21CA4F9600B7BA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = stplmacmini5;
+				TargetAttributes = {
+					6DB709D221CA4F9600B7BA5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6DB709CE21CA4F9600B7BA5C /* Build configuration list for PBXProject "SmilePassSampleApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB709CA21CA4F9600B7BA5C;
+			productRefGroup = 6DB709D421CA4F9600B7BA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB709D221CA4F9600B7BA5C /* SmilePassSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB709D121CA4F9600B7BA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB709E121CA4F9600B7BA5C /* LaunchScreen.storyboard in Resources */,
+				6D32E7BE21CA55BE00770144 /* Localizable.strings in Resources */,
+				6DB709DE21CA4F9600B7BA5C /* Assets.xcassets in Resources */,
+				6DB709DC21CA4F9600B7BA5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C496020B844CBDC14093DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmilePassSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A54CDD25CE269EFA8538B711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmilePassSampleApp/Pods-SmilePassSampleApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmilePassSampleApp/Pods-SmilePassSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB709CF21CA4F9600B7BA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D32E7B821CA533A00770144 /* Constants.swift in Sources */,
+				6DD05E1D21CA8E5900B9F592 /* SmilePassManager.swift in Sources */,
+				6D32E7C421CA569300770144 /* StringExtension.swift in Sources */,
+				6DB709D721CA4F9600B7BA5C /* AppDelegate.swift in Sources */,
+				6DD4E13821CB9F9C00C382AA /* DictionaryExtension.swift in Sources */,
+				6DD05E1521CA704600B9F592 /* FieldDataModel.swift in Sources */,
+				6D32E7B521CA52E500770144 /* SelfieRegisterViewController.swift in Sources */,
+				6DD05E1A21CA792400B9F592 /* UITableViewExtension.swift in Sources */,
+				6D32E7C621CA56D500770144 /* UIViewControllerExtension.swift in Sources */,
+				6D32E7BA21CA54D500770144 /* WelcomeViewController.swift in Sources */,
+				6D32E7B321CA52D200770144 /* DocumentRegisterViewController.swift in Sources */,
+				6D32E7B121CA52A300770144 /* VerifyViewController.swift in Sources */,
+				6DD05E1821CA77CF00B9F592 /* TextFieldCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D32E7C021CA55BE00770144 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D32E7C121CA55C300770144 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6DB709DA21CA4F9600B7BA5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB709DB21CA4F9600B7BA5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DB709DF21CA4F9600B7BA5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB709E021CA4F9600B7BA5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB709E321CA4F9600B7BA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DB709E421CA4F9600B7BA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB709E621CA4F9600B7BA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1540B3392183421ECC51B4C /* Pods-SmilePassSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP4L8R8HA5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SmilePassSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stpl.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB709E721CA4F9600B7BA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA11338396DD0748EC402050 /* Pods-SmilePassSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP4L8R8HA5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SmilePassSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stpl.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB709CE21CA4F9600B7BA5C /* Build configuration list for PBXProject "SmilePassSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB709E321CA4F9600B7BA5C /* Debug */,
+				6DB709E421CA4F9600B7BA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB709E521CA4F9600B7BA5C /* Build configuration list for PBXNativeTarget "SmilePassSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB709E621CA4F9600B7BA5C /* Debug */,
+				6DB709E721CA4F9600B7BA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB709CB21CA4F9600B7BA5C /* Project object */;
+}

@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  SmilePassSampleApp
+
+  Created by stplmacmini5 on 19/12/18.
+  Copyright © 2018 stplmacmini5. All rights reserved.
+*/
+
+"yes" = "Yes";
+"no" = "No";
+"ok" = "Ok";
+"error" = "Error";
+"success" = "Success";
+
+"registrationType" = "Registration Type";
+"documentAlert" = "Do you want to upload the document?";
+
+"uniqueKey" = "Unique Key";
+"documentId" = "Document Id";
+"callbackUrl" = "Callback Url";
+"frontImageUrl" = "Front Image Url";
+"backImageUrl" = "Back Image Url";
+"imageUrl" = "Image Url";
+
+"drivingLicense" = "Driving License";
+
+"faceVerified" = "Your face has been verified with confidence %0.2f";
+"faceVerificationFailed" = "Your face verifivation has been failed with confidence %0.2f";
+
