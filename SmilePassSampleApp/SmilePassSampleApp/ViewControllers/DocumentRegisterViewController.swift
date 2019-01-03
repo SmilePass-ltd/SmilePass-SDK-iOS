@@ -17,7 +17,7 @@ class DocumentRegisterViewController: UIViewController, UITableViewDataSource, U
     let kDocumentFieldTag = 1
     
     var arrFieldData: [FieldDataModel]!
-    let pickerData: [SmilePassDocumentType] = [.drivingLicense]
+    let pickerData: [SmilePassDocumentType] = [.drivingLicense, .passport]
     
     
     override func viewDidLoad() {

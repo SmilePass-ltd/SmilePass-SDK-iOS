@@ -78,6 +78,7 @@ struct SmilePassConstants {
 }
 
 enum SmilePassDocumentType: String {
+    case passport = "1"
     case drivingLicense = "3"
 
     func name() -> String {

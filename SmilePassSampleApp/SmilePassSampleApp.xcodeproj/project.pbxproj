@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C45AA8B21DE4BDF00B15BCF /* SmilePass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE46EA521DE4953009FBF3D /* SmilePass.framework */; };
+		0C45AA8C21DE4BDF00B15BCF /* SmilePass.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE46EA521DE4953009FBF3D /* SmilePass.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		62E28394720AF6D330E898EF /* Pods_SmilePassSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A998D5AB7594FA5C0231158 /* Pods_SmilePassSampleApp.framework */; };
 		6D32E7B121CA52A300770144 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B021CA52A300770144 /* VerifyViewController.swift */; };
 		6D32E7B321CA52D200770144 /* DocumentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32E7B221CA52D200770144 /* DocumentRegisterViewController.swift */; };
@@ -29,12 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6DD05E2221CA957800B9F592 /* Embed Frameworks */ = {
+		0C45AA8D21DE4BDF00B15BCF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0C45AA8C21DE4BDF00B15BCF /* SmilePass.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +77,7 @@
 			files = (
 				6DE46EA621DE4953009FBF3D /* SmilePass.framework in Frameworks */,
 				62E28394720AF6D330E898EF /* Pods_SmilePassSampleApp.framework in Frameworks */,
+				0C45AA8B21DE4BDF00B15BCF /* SmilePass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +213,7 @@
 				6DB709D021CA4F9600B7BA5C /* Frameworks */,
 				6DB709D121CA4F9600B7BA5C /* Resources */,
 				A54CDD25CE269EFA8538B711 /* [CP] Embed Pods Frameworks */,
-				6DD05E2221CA957800B9F592 /* Embed Frameworks */,
+				0C45AA8D21DE4BDF00B15BCF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
