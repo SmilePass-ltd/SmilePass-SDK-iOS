@@ -82,7 +82,7 @@ For the detailed information on how to register and verify a user using SmilePas
 * [SDK Setup](https://github.com/SmilePass-ltd/SmilePass-SDK-iOS/wiki/SmilePass-SDK-Setup)
 * [SmilePass Tutorials](https://github.com/SmilePass-ltd/SmilePass-SDK-iOS/wiki/SmilePass-Tutorials)
 * [Troubleshooting](https://github.com/SmilePass-ltd/SmilePass-SDK-iOS/wiki/Troubleshooting)
-
+* [API Documents](https://smilepassapis.docs.apiary.io/#)
 
 ## License
 SmilePass iOS SDK sample application is licensed with the SmilePass License. For more details, see [LICENSE](https://smile-pass.com).
