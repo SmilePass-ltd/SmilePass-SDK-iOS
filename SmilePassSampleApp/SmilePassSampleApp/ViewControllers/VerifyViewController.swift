@@ -83,7 +83,7 @@ class VerifyViewController: UIViewController, UITableViewDataSource, UITextField
                     let confidenceScore = dict.getDouble(forKey: SmilePassParameters.confidenceScore)
                     let statusMessage = confidenceScore > SmilePassConstants.faceVerificationThreshold ? "faceVerified" : "faceVerificationFailed"
                     let message = String(format: statusMessage.localized(), confidenceScore)
-                    self.showSmilePassMessage(message, isError: false)
+                    self.showSmilePassMessage(message, isError: confidenceScore < SmilePassConstants.faceVerificationThreshold)
                 } else if let message = dict[SmilePassParameters.message] as? String {
                     self.showSmilePassMessage(message, isError: true)
                 }

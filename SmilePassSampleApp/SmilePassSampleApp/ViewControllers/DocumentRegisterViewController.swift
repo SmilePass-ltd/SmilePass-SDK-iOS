@@ -116,6 +116,8 @@ class DocumentRegisterViewController: UIViewController, UITableViewDataSource, U
                     self.performSegue(withIdentifier: SegueName.documentToSelfie, sender: params[SmilePassParameters.uniqueKey])
                 } else if let message = dict[SmilePassParameters.message] as? String {
                     self.showSmilePassMessage(message, isError: false)
+                } else if dict.getInt(forKey: SmilePassParameters.status) == 0 {
+                    self.showSmilePassMessage("invalidDocument".localized(), isError: true)
                 }
             }
         }

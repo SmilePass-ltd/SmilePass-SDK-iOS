@@ -27,4 +27,5 @@
 
 "faceVerified" = "Your face has been verified with confidence %0.2f";
 "faceVerificationFailed" = "Your face verifivation has been failed with confidence %0.2f";
+"invalidDocument" = "Invalid Document";
 
